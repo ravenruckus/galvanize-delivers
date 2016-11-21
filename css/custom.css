@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header {
+  background: url("../img/color_face.jpeg");
+  background-size: cover;
+  flex-direction: column;
+  height: 550px;
+  justify-content: center;
+}
+.banner {
+  background-color: rgba(140, 128, 133, 0.89);
+  padding-bottom: 15px;
+}
+.banner h3 {
+  padding-top: 15px;
+}
+main {
+  flex: 1 0 auto;
+}
+nav .brand-logo {
+  font-size: 1.7rem;
+  margin-left: 3%;
+}
+i {
+  margin-right: 5px;
+  vertical-align: bottom;
+}
+.menu h3, .menu_form h3{
+  border-bottom: 1px solid #01579b ;
+}
+
+/* label color */
+.input-field label {
+ color: #000;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+ color: #c2185b;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+ border-bottom: 1px solid #c2185b;
+ box-shadow: 0 1px 0 0 #c2185b;
+}
+/* valid color */
+.input-field input[type=text].valid {
+ border-bottom: 1px solid #c2185b;
+ box-shadow: 0 1px 0 0 #c2185b;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+ border-bottom: 1px solid #c2185b;
+ box-shadow: 0 1px 0 0 #c2185b;
+}
+
+/* label focus color */
+.input-field input[type=tel]:focus + label {
+ color: #c2185b;
+}
+/* label underline focus color */
+.input-field input[type=tel]:focus {
+ border-bottom: 1px solid #c2185b;
+ box-shadow: 0 1px 0 0 #c2185b;
+}
+/* valid color */
+.input-field input[type=tel].valid {
+ border-bottom: 1px solid #c2185b;
+ box-shadow: 0 1px 0 0 #c2185b;
+}
+/* invalid color */
+.input-field input[type=tel].invalid {
+ border-bottom: 1px solid #c2185b;
+ box-shadow: 0 1px 0 0 #c2185b;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+ color: #c2185b;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+  color: #01579b;
+}
+table.striped>tbody>tr>td {
+  padding-left: 6.5%;
+}
