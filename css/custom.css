@@ -31,6 +31,9 @@ i {
 .menu h3, .menu_form h3{
   border-bottom: 1px solid #01579b ;
 }
+.totalMenu {
+  padding-left: 50px;
+}
 
 /* label color */
 .input-field label {
@@ -85,4 +88,9 @@ i {
 }
 table.striped>tbody>tr>td {
   padding-left: 6.5%;
+}
+@media only screen and (min-width: 601px) and (max-width: 699px) {
+  .sub {
+    margin-right: 10px;
+  }
 }
